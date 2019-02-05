@@ -1,0 +1,66 @@
+/* Joseph Ketterer
+Jkette01
+Web Programming with PHP
+Tobi Brodie */
+
+/* I'm using some limited css as it helped me when working through the project.
+For example it made it easier to work out which file was which when the results were demarcated very clearly.
+I've used a clear serif font as this helps distinguish between letters & numbers. I've left the
+css in as I feel it helps the presentation of the results.  */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ededed;
+    line-height: 2.4rem;
+	color: black;
+}
+
+
+main {
+	width: 75%;
+	margin: auto;
+	background-color: #ffffff;
+	padding: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    padding-bottom: 8px;
+    border-bottom: 4px solid black;
+    margin: 3rem auto;
+	width: 95%;
+	font-weight: 900;
+}
+
+h4{
+	font-size: 2.1rem;
+	margin-left: 3rem;
+	font-weight: 900;
+	padding: 1rem 0;
+	font-weight: 900;
+
+}
+
+
+p {
+	font-size: 1.8rem;
+	line-height: 1.8;
+	margin-left: 3rem;
+	padding: .2rem 0;
+	font-weight: 300;
+}
+
+.section-end {
+	margin: 2rem auto;
+	width: 95%;
+	border-top: 3px dashed black;
+}
